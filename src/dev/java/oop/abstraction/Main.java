@@ -11,9 +11,11 @@ public class Main {
         robocop.setWing(aircraftWing);
 
 
-        robocop.flight();
-        robocop.talk();
-        robocop.move();
+//        robocop.flight();
+//        robocop.talk();
+//        robocop.move();
+
+        robocop.off();
 
         //abstract class may inherit from abstract or public class
         //implement other interfaces
