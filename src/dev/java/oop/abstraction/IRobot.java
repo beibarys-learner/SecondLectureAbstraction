@@ -4,6 +4,8 @@ package dev.java.oop.abstraction;
 public interface IRobot{
     // four business methods
     default void move(){
+        // zaglushka if it is commented in Robocop
+        // if Robocop uncommented, Robo's move works
         System.out.println("default move " + getName());
     }
     void stop();
