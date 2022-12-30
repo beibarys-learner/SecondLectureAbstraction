@@ -1,11 +1,11 @@
 package dev.java.oop.abstraction;
 
-public class Robocop extends ARobot{
+public class Robocop extends ARobot {
     public Robocop() {
     }
 
-    public Robocop(String name) {
-        super(name);
+    public Robocop(String name, Wing wing) {
+        super(name, wing);
     }
 
     @Override
@@ -20,10 +20,10 @@ public class Robocop extends ARobot{
 
     @Override
     public void flight() {
-        System.out.println("Robocop flight");
+        System.out.println("Robocop flight with size = " + getWing().getSize());
     }
 
-    public void talk(){
+    public void talk() {
         System.out.println("Robocop talk");
     }
 

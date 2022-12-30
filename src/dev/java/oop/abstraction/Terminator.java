@@ -6,8 +6,8 @@ public abstract class Terminator extends ARobot{
     public Terminator() {
     }
 
-    public Terminator(String name) {
-        super(name);
+    public Terminator(String name, Wing wing) {
+        super(name, wing);
     }
 
     @Override
