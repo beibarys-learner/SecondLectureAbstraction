@@ -13,6 +13,7 @@ public class Main {
 
         robocop.flight();
         robocop.talk();
+        robocop.move();
 
         //abstract class may inherit from abstract or public class
         //implement other interfaces

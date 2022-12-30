@@ -4,7 +4,7 @@ package dev.java.oop.abstraction;
 public interface IRobot{
     // four business methods
     default void move(){
-        System.out.println("move" + getName());
+        System.out.println("default move " + getName());
     }
     void stop();
     void flight();
