@@ -32,5 +32,13 @@ public abstract class ARobot implements IRobot{
 
     public abstract void talk();
 
+    @Override
+    public void on() {
 
+    }
+
+    @Override
+    public void off() {
+
+    }
 }
