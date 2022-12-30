@@ -5,5 +5,9 @@ public class Main {
         Robocop robocop = new Robocop("robocop");
         robocop.flight();
         robocop.talk();
+
+        //abstract class may inherit from abstract or public class
+        //implement other interfaces
+        // be parent for child classes
     }
 }
