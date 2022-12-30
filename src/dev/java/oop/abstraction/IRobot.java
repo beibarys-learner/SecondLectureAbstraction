@@ -5,4 +5,8 @@ public interface IRobot {
     void stop();
     void flight();
 
+    // method-fields
+    String getName();
+    // setter methods is not necessary
+
 }
