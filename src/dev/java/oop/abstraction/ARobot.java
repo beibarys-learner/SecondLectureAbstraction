@@ -39,8 +39,8 @@ public abstract class ARobot implements IRobot, ITechnic{ // added ITechnic to A
         System.out.println("on");
     }
 
-    @Override
-    public void off() {
-        System.out.println("off");
-    }
+//    @Override
+//    public void off() {
+//        System.out.println("off");
+//    }
 }
