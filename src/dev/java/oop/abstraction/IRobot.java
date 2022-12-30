@@ -1,7 +1,7 @@
 package dev.java.oop.abstraction;
 
 // you can describe all method actions and fields in interfaces
-public interface IRobot extends ITechnic{
+public interface IRobot{
     // four business methods
     void move();
     void stop();
