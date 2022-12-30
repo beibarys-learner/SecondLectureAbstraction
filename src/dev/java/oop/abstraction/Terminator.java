@@ -1,8 +1,7 @@
 package dev.java.oop.abstraction;
 
-public class Terminator implements IRobot{
+public class Terminator extends ARobot{
 
-    private String name;
     @Override
     public void move() {
         System.out.println("T move");
@@ -17,12 +16,5 @@ public class Terminator implements IRobot{
         System.out.println("T flight");
     }
 
-    @Override
-    public String getName() {
-        return name;
-    }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 }
