@@ -4,7 +4,7 @@ public class Robocop extends ARobot {
     public Robocop() {
     }
 
-    public Robocop(String name, Wing wing) {
+    public Robocop(String name, IWing wing) {
         super(name, wing);
     }
 

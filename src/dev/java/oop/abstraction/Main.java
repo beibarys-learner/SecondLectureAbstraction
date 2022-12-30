@@ -8,8 +8,9 @@ public class Main {
 
         Robocop robocop = new Robocop();
         robocop.setName("robo");
-
         robocop.setWing(aircraftWing);
+
+
         robocop.flight();
         robocop.talk();
 

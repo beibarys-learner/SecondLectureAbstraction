@@ -10,6 +10,6 @@ public interface IRobot {
     // method-fields
     String getName();
     // setter methods is not necessary
-    Wing getWing(); // all robots have wings and they cannot flight
+    IWing getWing(); // all robots have wings and they cannot flight
 
 }

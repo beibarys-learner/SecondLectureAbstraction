@@ -1,6 +1,6 @@
 package dev.java.oop.abstraction;
 
-public interface Wing {
+public interface IWing {
     void open();
     int getSize();
 }
