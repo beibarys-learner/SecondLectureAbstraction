@@ -2,7 +2,7 @@ package dev.java.oop.abstraction;
 
 import javax.lang.model.SourceVersion;
 
-public abstract class ARobot implements IRobot, ITechnic{ // added ITechnic
+public abstract class ARobot implements IRobot, ITechnic{ // added ITechnic to A
     public ARobot() {
     }
 

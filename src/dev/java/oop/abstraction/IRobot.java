@@ -3,7 +3,9 @@ package dev.java.oop.abstraction;
 // you can describe all method actions and fields in interfaces
 public interface IRobot{
     // four business methods
-    void move();
+    default void move(){
+        System.out.println("move" + getName());
+    }
     void stop();
     void flight();
     void talk();
