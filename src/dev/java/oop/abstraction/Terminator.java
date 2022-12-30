@@ -1,6 +1,14 @@
 package dev.java.oop.abstraction;
 
-public class Terminator extends ARobot{
+public abstract class Terminator extends ARobot{
+    // current class not must to implement getName, since it is already described at ARobot
+
+    public Terminator() {
+    }
+
+    public Terminator(String name) {
+        super(name);
+    }
 
     @Override
     public void move() {
